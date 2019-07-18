@@ -1,0 +1,35 @@
+bokeh
+gensim
+gensim.corpora
+gensim.models
+gensim.utils
+joblib
+jupyter
+logging
+matplotlib
+matplotlib.pyplot
+numpy
+pandas
+pprint
+prettytable
+pyLDAvis
+pyLDAvis.gensim
+pytest
+random
+requests
+re
+shorttext
+sklearn
+spacy
+warnings
+wordcloud
+
+
+enstop -- load from github repo:  
+
+	wget https://github.com/lmcinnes/enstop/archive/master.zip
+	unzip master.zip
+	rm master.zip
+	cd enstop-master
+	python setup.py install
+
