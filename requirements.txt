@@ -23,13 +23,3 @@ sklearn
 spacy
 warnings
 wordcloud
-
-
-enstop -- load from github repo:  
-
-	wget https://github.com/lmcinnes/enstop/archive/master.zip
-	unzip master.zip
-	rm master.zip
-	cd enstop-master
-	python setup.py install
-
