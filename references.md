@@ -25,3 +25,15 @@ in mind and are relatively non-technical.
 This 1974 article by Howard P. Iker details the early uses (starting about 1960) of principal components analysis for topic extraction from text.  
 
 * Iker, Howard P. 1974. [An Historical Note on the Use of Word-Frequency Contiguities in Content Analysis.](https://www.jstor.org/stable/30199651) 
+
+# Data and Code Sources
+
+The ABC News headlines and notebook come from a [tutorial by Ravish Chawla](https://medium.com/ml2vec/topic-modeling-is-an-unsupervised-learning-approach-to-clustering-documents-to-discover-topics-fdfbf30e27df). 
+
+The BBC News articles come from a sample created by Félix Revert.
+
+The notebooks and collected news articles used for demonstrating Non-negative Matrix Factorization come from a 
+[tutorial by Derek Greene](https://github.com/derekgreene/topic-model-tutorial).
+
+The climate change twitter data come oringally from [data.world.](https://data.world/crowdflower/sentiment-of-climate-change)
+We are working with a version reformatted by [James at the Coding Club.](https://ourcodingclub.github.io/2018/12/10/topic-modelling-python.html)
