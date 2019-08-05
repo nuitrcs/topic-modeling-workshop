@@ -10,4 +10,4 @@ To install required Python modules, run:
 To install extra data, run:
 
 	python -m nltk.downloader popular
-	python -m spacy download en_core_web_sm
+	
