@@ -1,6 +1,12 @@
 # topic-modeling-workshop
 ## Materials for Topic Modeling Workshop at Northwestern University.
 
+### Where is this repository located?
+
+This repository is located at [https://github.com/nuitrcs/topic-modeling-workshop](https://github.com/nuitrcs/topic-modeling-workshop).
+
+### Files in this repository
+
 The following files are included in the workshop materials.
 
 <pre>
@@ -32,13 +38,13 @@ The following files are included in the workshop materials.
                                         for users on workshop server.
 </pre>
 
-## Running the Jupyter notebooks during the workshop
+### Running the Jupyter notebooks during the workshop
 
 You will be running the Python notebooks on a server,
 so you do not need to install any software.   Your username
 and password will be provided at the beginning of the workshop.
 
-## Running the notebooks on your own machine
+### Running the notebooks on your own machine
 
 To run the Python notebooks on your own machine, clone the
 topic modeling repository using git.  You will need to install
@@ -90,5 +96,3 @@ This brings up the jupyter web application from which
 you can run and edit the workshop notebooks.  If you created
 a virtual environment for the workshop materials, make to
 activate the environment before invoking jupyter,
-
-
