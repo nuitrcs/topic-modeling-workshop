@@ -30,10 +30,11 @@ This 1974 article by Howard P. Iker details the early uses (starting about 1960)
 
 The ABC News headlines and notebook come from a [tutorial by Ravish Chawla](https://medium.com/ml2vec/topic-modeling-is-an-unsupervised-learning-approach-to-clustering-documents-to-discover-topics-fdfbf30e27df). 
 
-The BBC News articles come from a sample created by Félix Revert.
+The BBC News articles and some of the code come from Félix Revert in his [guide to LDA topics extraction](https://towardsdatascience.com/the-complete-guide-for-topics-extraction-in-python-a6aaa6cedbbc).
 
 The notebooks and collected news articles used for demonstrating Non-negative Matrix Factorization come from a 
 [tutorial by Derek Greene](https://github.com/derekgreene/topic-model-tutorial).
 
-The climate change twitter data come oringally from [data.world.](https://data.world/crowdflower/sentiment-of-climate-change)
-We are working with a version reformatted by [James at the Coding Club.](https://ourcodingclub.github.io/2018/12/10/topic-modelling-python.html)
+The climate change twitter data come originally from [data.world.](https://data.world/crowdflower/sentiment-of-climate-change)
+We are working with a version of the data reformatted by [James at the Coding Club.](https://ourcodingclub.github.io/2018/12/10/topic-modelling-python.html)
+as well as a modified version of his sample code.
