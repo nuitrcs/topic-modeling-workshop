@@ -16,6 +16,8 @@ The following files are included in the workshop materials.
 
         climate-tweets.ipynb            Topic modeling of climate change related tweets.
 
+        data/                           Data files.
+
         README.md                       What you're reading now.
 
         references.html                 \

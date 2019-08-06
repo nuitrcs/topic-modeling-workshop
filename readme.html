@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>readme</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="topic-modeling-workshop">topic-modeling-workshop</h1>
+<h2 id="materials-for-topic-modeling-workshop-at-northwestern-university.">Materials for Topic Modeling Workshop at Northwestern University.</h2>
+<p>The following files are included in the workshop materials.</p>
+<pre>
+        bbc-topics.ipynb                Topic modeling of BBC news articles using
+                                        Latent Dirichlet Allocation.
+        abc-news-headlines.ipynb        Topic modeling of Australian Broadcast News
+                                        headlines using Latent Dirichlet Allocation
+                                        and Non-negative Matrix Factorization.
+
+        NMF-parameter-selection.ipynb   \
+        NMF-text-preprocessing.ipynb     | Topic modeling of BBC news articles.
+        NMF-topic-modeling.ipynb        /
+
+        climate-tweets.ipynb            Topic modeling of climate change related tweets.
+
+        data/                           Data files.
+
+        README.md                       What you're reading now.
+
+        references.html                 \
+        references.md                    | General references and pointers to sources for data
+                                         | and code used in this workshop.
+                                        /
+
+        requirements.txt                Python requirements for running workshop code.
+
+        topic-model-slides.pptx         Presentation slides for workshop.
+        topic-modeling-workshop.yaml    Conda requirements for generating online environment
+                                        for users on workshop server.
+</pre>
+<h2 id="running-the-jupyter-notebooks-during-the-workshop">Running the Jupyter notebooks during the workshop</h2>
+<p>You will be running the Python notebooks on a server, so you do not need to install any software. Your username and password will be provided at the beginning of the workshop.</p>
+<h2 id="running-the-notebooks-on-your-own-machine">Running the notebooks on your own machine</h2>
+<p>To run the Python notebooks on your own machine, clone the topic modeling repository using git. You will need to install git before you can do this.</p>
+<p>On most systems the git command to clone the repository looks like:</p>
+<pre><code>    git clone https://github.com/nuitrcs/topic-modeling-workshop.git</code></pre>
+<p>You may also use your favorite graphical git client.</p>
+<p>Next, install Python if you have not already done so. We highly recommend you install Anaconda Python for your system. The workshop notebooks are written in Python3, so please make sure you install that version of Anaconda Python.</p>
+<p>Once you have installed Anaconda move into the directory to which you cloned the topic modeling workshop files and type the following at a command line:</p>
+<pre><code>    pip install -r requirements.txt</code></pre>
+<p>(You may need to run</p>
+<pre><code>    pip3 install -r requirements.txt</code></pre>
+<p>instead in some cases.)</p>
+<p>This installs the Python modules needed to run the workshop notebooks.</p>
+<p>You may want to install the workshop modules into a separate <a href="https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/">virtual environment</a>. If you are using Anaconda, you can instead <a href="https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/">create a virtual environment using conda.</a></p>
+<p>To install the extra data needed by the nltk module, type the following at a command line:</p>
+<pre><code>    python -m nltk.downloader popular</code></pre>
+<p>To execute a notebook, move to the directory into which you cloned the workshop files, and type the following at a command line:</p>
+<pre><code>    jupyter notebook</code></pre>
+<p>This brings up the jupyter web application from which you can run and edit the workshop notebooks. If you created a virtual environment for the workshop materials, make to activate the environment before invoking jupyter,</p>
+</body>
+</html>
